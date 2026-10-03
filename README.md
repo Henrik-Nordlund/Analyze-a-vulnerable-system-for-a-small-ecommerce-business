@@ -68,7 +68,7 @@ The assessment identified several security concerns associated with the public a
 
 ## Remediation Strategy
 
-The original assessment recommended several controls to reduce the identified risks:
+In the original assessment that I conducted, I recommended several controls to reduce the identified risks.
 
 - Restrict direct public access to the database.
 - Implement network-level access controls and firewalls.
@@ -79,7 +79,7 @@ The original assessment recommended several controls to reduce the identified ri
 
 ### Modernized Remediation Considerations
 
-The original exercise describes the environment as a single database. In a real-world environment, the information stored by the organization would first be classified according to its sensitivity and business requirements.
+The original exercise, completed as part of the Google Cybersecurity Professional Certificate, describes the environment as a single database. In a real-world environment, the information stored by the organization would first be classified according to its sensitivity and business requirements.
 
 A possible four-level classification model could distinguish between:
 
