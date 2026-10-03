@@ -119,7 +119,9 @@ This is an important consideration when assessing risk: recommendations should b
 
 ## Original Exercise
 
-This vulnerability assessment was originally completed in May 2024 as part of the **Google Cybersecurity Professional Certificate**.
+## Original Exercise
+
+This vulnerability assessment was originally completed in May 2024 as part of the **Google Cybersecurity Professional Certificate** while I was working through the course material.
 
 The original exercise used a provided vulnerability assessment template and **NIST SP 800-30 Rev. 1** as a reference for the risk analysis.
 
