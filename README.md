@@ -101,7 +101,6 @@ This provides a foundation for answering three fundamental questions:
 Once the assets, information classifications and access requirements have been established, the organization's external attack surface should be assessed. A basic vulnerability and service discovery scan using a tool such as **Nmap** can identify exposed ports, services and other information that can be used to guide further hardening.
 
 A basic scan is not a substitute for a penetration test. It provides a relatively low-cost way to establish a baseline of the externally exposed attack surface and identify unnecessary exposure before more extensive security testing is considered.
-
 ## What I Learned
 
 This project provided experience with a basic vulnerability and risk assessment workflow:
@@ -113,6 +112,10 @@ This project provided experience with a basic vulnerability and risk assessment 
 - Applying the principle of least privilege
 - Considering information classification and access requirements
 - Using NIST SP 800-30 Rev. 1 as a reference for risk assessment
+
+The exercise also enforced the importance of distinguishing between what is known and what is assumed when conducting a risk assessment. The original scenario provides no information about the organization's employees, digital assets, technical architecture, vendors or existing security controls. As a result, the assessment that I conducted can only draw conclusions within the boundaries of the information provided by the scenario.
+
+This is an important consideration when assessing risk: recommendations should be based on available evidence and clearly identified assumptions rather than introducing unsupported details about an organization's environment.
 
 ## Original Exercise
 
