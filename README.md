@@ -79,7 +79,7 @@ In the original assessment that I conducted, I recommended several controls to r
 
 ### Modernized Remediation Considerations
 
-The original exercise, completed as part of the Google Cybersecurity Professional Certificate, describes the environment as a single database. In a real-world environment, the information stored by the organization would first be classified according to its sensitivity and business requirements.
+The original exercise, completed as part of the Google Cybersecurity Professional Certificate, describes the environment as a single database. In a real-world environment, the organization should first establish what digital assets and information it has, and classify the information according to its sensitivity and business requirements.
 
 A possible four-level classification model could distinguish between:
 
@@ -90,13 +90,17 @@ A possible four-level classification model could distinguish between:
 
 Information with different classification levels should not necessarily share the same access model. Public information may be made available through a dedicated read-only data store or application interface, while internal, confidential and highly restricted information should require increasingly restrictive authentication and authorization controls.
 
-The organization should also maintain an **asset management register** covering its digital assets and associated information. The register should identify assets, owners, locations, information classifications and relevant access or security controls.
+The organization should also maintain an **asset management register** covering its digital assets and associated information. The register should identify assets, owners, locations, information classifications and relevant access and security controls.
 
 This provides a foundation for answering three fundamental questions:
 
 > **What assets and information do we have?**  
 > **How sensitive are they?**  
 > **Who should have access to them?**
+
+Once the assets, information classifications and access requirements have been established, the organization's external attack surface should be assessed. A basic vulnerability and service discovery scan using a tool such as **Nmap** can identify exposed ports, services and other information that can be used to guide further hardening.
+
+A basic scan is not a substitute for a penetration test. It provides a relatively low-cost way to establish a baseline of the externally exposed attack surface and identify unnecessary exposure before more extensive security testing is considered.
 
 ## What I Learned
 
