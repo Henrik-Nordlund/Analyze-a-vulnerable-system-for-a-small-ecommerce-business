@@ -128,4 +128,4 @@ The project has since been documented and refined as a standalone portfolio proj
 
 ## Report
 
-[View the original Vulnerability Assessment Report from May 2024](./Vulnerability%20Assessment%20Report.md)
+[View the original Vulnerability Assessment Report from May 2024](https://github.com/Henrik-Nordlund/Analyze-a-vulnerable-system-for-a-small-ecommerce-business/blob/main/Original%20Vulnerability%20Assessment%20Report.md)
