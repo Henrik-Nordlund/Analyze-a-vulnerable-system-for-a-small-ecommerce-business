@@ -117,7 +117,6 @@ The exercise also enforced the importance of distinguishing between what is know
 
 This is an important consideration when assessing risk: recommendations should be based on available evidence and clearly identified assumptions rather than introducing unsupported details about an organization's environment.
 
-## Original Exercise
 
 ## Original Exercise
 
